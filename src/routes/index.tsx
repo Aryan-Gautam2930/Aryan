@@ -4,7 +4,7 @@ import { Bell, ShieldCheck, Languages, ClipboardList } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { useI18n, LANGS } from "@/lib/i18n";
 import { Button } from "@/components/ui/button";
-import helper from "@/assets/chw-helper.png";
+import helper from "@/assets/chw-helper.svg";
 
 export const Route = createFileRoute("/")({
   head: () => ({

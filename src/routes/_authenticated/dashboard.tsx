@@ -6,7 +6,7 @@ import { useI18n } from "@/lib/i18n";
 import { splitReminders } from "@/lib/validation";
 import { Button } from "@/components/ui/button";
 import { ErrorState, Empty, GlassCard, Loading, fmtDate, fmtDateTime } from "@/components/common";
-import helper from "@/assets/chw-helper.png";
+import helper from "@/assets/chw-helper.svg";
 
 export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({ meta: [{ title: "Dashboard — Record System for CHW" }, { name: "description", content: "Overview of patients, visits and reminders." }] }),

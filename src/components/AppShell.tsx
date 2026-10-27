@@ -7,7 +7,7 @@ import { LANGS, useI18n } from "@/lib/i18n";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { ReminderWatcher } from "@/components/ReminderWatcher";
-import logo from "@/assets/chw-helper.png";
+import logo from "@/assets/chw-helper.svg";
 
 export function AppShell() {
   const { t, lang, setLang } = useI18n();
